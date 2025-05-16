@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANIE'S BLOG OF CURIOSITY | Contact</title>
+    <meta name="description" content="Get in touch with MANE'S BLOG OF CURIOSITY to share your experiences or ask questions">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>MANIE'S BLOG</h1>
+                        <p class="tagline">CURIOSITY • MYSTERY • HISTORY</p>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span class="hamburger"></span>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="theme-toggle">
+                    <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Share your experiences or ask questions about UFO phenomena</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Have you witnessed a UFO or had an extraterrestrial encounter? Do you have questions about the cases we've covered? We'd love to hear from you.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:info@manesblog.com">info@maniesblog.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>WorldWide, Space</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-share-alt"></i>
+                                <div>
+                                    <h4>Social Media</h4>
+                                    <div class="social-links">
+                                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="submission-guidelines">
+                            <h4>Submission Guidelines</h4>
+                            <p>If you're sharing a personal experience, please include:</p>
+                            <ul>
+                                <li>Date and time of the incident</li>
+                                <li>Location</li>
+                                <li>Detailed description of what you witnessed</li>
+                                <li>Any photos or videos (if available)</li>
+                                <li>Whether you consent to having your story shared on our blog</li>
+                            </ul>
+                            <p>We respect your privacy and will not publish your name or contact information without explicit permission.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <h3>Contact Form</h3>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <span class="error-message" id="subject-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            
+                            <div class="form-group checkbox">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                <label for="consent">I consent to having my data stored and processed for the purpose of responding to my inquiry.</label>
+                                <span class="error-message" id="consent-error"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            
+                            <div class="form-status" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="faq-section">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="faq-container">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h4>How do you verify the authenticity of UFO reports?</h4>
+                                <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We use a multi-faceted approach to verify reports, including cross-referencing with other witnesses, checking for corroborating evidence (photos, videos, radar data), and consulting with experts in relevant fields. We also consider the credibility of witnesses and look for patterns across multiple reports.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h4>Can I remain anonymous if I share my experience?</h4>
+                                <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Absolutely. We respect your privacy and understand that many witnesses prefer to remain anonymous due to the sensitive nature of these experiences. We can use pseudonyms or omit identifying details while still sharing the important aspects of your encounter.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h4>Do you investigate reports in person?</h4>
+                                <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>For significant cases that meet certain criteria, we do conduct in-person investigations when possible. This typically involves visiting the location, interviewing witnesses, and gathering any physical evidence that might be available. However, due to resource limitations, we cannot investigate every report in person.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h4>How can I support your research?</h4>
+                                <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>The best ways to support our work are by sharing your own experiences, helping to spread awareness about our blog, and engaging with our content through comments and social media. If you have specialized expertise (e.g., in aviation, astronomy, or photography), we also welcome your insights on specific cases.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>MANIE'S BLOG</h2>
+                    <p>Exploring the mysteries of our universe</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="articles.html">Articles</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Connect</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MANIE'S BLOG OF CURIOSITY. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
