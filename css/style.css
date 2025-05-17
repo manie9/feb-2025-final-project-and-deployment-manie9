@@ -68,10 +68,11 @@
     line-height: 1.6;
     transition: background-color var(--transition-normal), color var(--transition-normal);
   }
-
+ 
+ /* ===== ed ===== */
   body.dark-mode {
     background-color: #121212;
-    color: #191818;
+    color: #d79df6;
   }
 
   body.dark-mode .site-header,
@@ -82,7 +83,9 @@
   body.dark-mode a {
     color: #bb86fc;
   }
+
   
+
   h1,
   h2,
   h3,
